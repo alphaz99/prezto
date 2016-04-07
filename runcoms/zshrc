@@ -42,13 +42,3 @@ export PATH="/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # For a full list of active aliases, run `alias`.
 # Aliases
 alias ls='ls -GFh'
-alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
-
-# Donut
-alias donut-tunnel="ssh -L 9001:localhost:5050 aws"
-alias mount-donut="sshfs aws:donut $HOME/Documents/Projects/donut-python"
-alias umount-donut="umount $HOME/Documents/Projects/donut-python"
-
-# Bagel
-alias mount-bagel="sshfs donut:bagel $HOME/Documents/Projects/bagel"
-alias umount-bagel="umount $HOME/Documents/Projects/bagel"
