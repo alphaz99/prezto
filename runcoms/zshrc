@@ -42,3 +42,6 @@ export PATH="/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # For a full list of active aliases, run `alias`.
 # Aliases
 alias ls='ls -GFh'
+if [ -e $HOME/.cabal/bin ]; then
+    export PATH="$HOME/.cabal/bin:$PATH"
+fi
